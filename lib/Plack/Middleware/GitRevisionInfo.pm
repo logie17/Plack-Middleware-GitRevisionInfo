@@ -5,7 +5,7 @@ use 5.008008;
 
 extends 'Plack::Middleware';
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 has 'path' => (
     is => 'ro',
