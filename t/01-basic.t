@@ -20,7 +20,7 @@ test_psgi $app, sub {
  
     my $res = $cb->(GET '/');
     is $res->code, 200;
-    is $res->content, 'div>FooBar</div><!-- Revision: cacf449de40f4bacdf599f6217aa94f57aa28b24 Date: Fri Feb 17 16:26:09 2012 -0800 -->';
+    is $res->content, '<div>FooBar</div><!-- Revision: 8e9242f11bbb0046b781fafb6c4a65182f4e1d48 Date: Fri Feb 17 23:34:59 2012 -0800 -->';
 };
 
 $app = builder {
