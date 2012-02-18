@@ -12,9 +12,11 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Middleware that appends git revision information to html",
   "AUTHOR" => "Plack-Middleware-GitRevisionInfo <logie\@cpan.org>",
   "BUILD_REQUIRES" => {
+    "File::Slurp" => 0,
     "HTTP::Request::Common" => 0,
     "Plack::Builder" => 0,
     "Plack::Test" => 0,
+    "Test::Git" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -28,7 +30,7 @@ my %WriteMakefileArgs = (
     "Moo" => 0,
     "Plack::Util" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

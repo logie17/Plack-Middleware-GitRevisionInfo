@@ -1,3 +1,4 @@
+Changes
 LICENSE
 MANIFEST
 META.yml
@@ -8,4 +9,3 @@ dist.ini
 lib/Plack/Middleware/GitRevisionInfo.pm
 t/00-use.t
 t/01-basic.t
-t/git_repo/foo

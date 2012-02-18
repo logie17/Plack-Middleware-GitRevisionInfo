@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-GitRevisionInfo,
-version 0.001:
+version 0.002:
 
   Middleware that appends git revision information to html
 
